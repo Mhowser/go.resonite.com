@@ -17,11 +17,6 @@
   --btn--icon-only-size: 36px;
 }
 
-/* For chrome */
-a:-webkit-any-link {
-  cursor: url("/images/cursors/SVG/Color_InteractCursor.svg") 8 8, pointer;
-}
-
 html, body {
   display: flex;
   height: 100vh;
@@ -41,7 +36,7 @@ body {
   padding: 20px 10px;
 }
 
-a:hover{
+a {
   cursor: url("/images/cursors/SVG/Color_InteractCursor.svg") 8 8, pointer;
 }
 
